@@ -1,0 +1,549 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    img#woman_img {
+        max-width: 700px;
+        top: auto;
+        bottom: 0;
+    }
+    
+    .used_blk {
+        width: 330px;
+        padding-left: 60px;
+        margin-left: auto;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    img#woman_img {
+        max-width: 600px;
+        top: auto;
+        bottom: 0;
+    }
+
+.woman-cont {
+    margin-bottom: 130px;
+    max-width: 504px;
+}
+    
+    .used_blk {
+        width: 281px;
+        padding-left: 60px;
+        margin-left: auto;
+    }
+
+.used_blk p {
+    padding-right: 15px;
+}
+
+.used_blk span {
+    font-size: 80px;
+    left: -44px;
+}
+.Doctor_cont{
+    margin: 105px 0;
+}
+.Experts_img img {
+    width: 100%;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    img#woman_img {
+    display: none;
+    }
+
+.woman-cont {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 95%;
+}
+    
+    .used_blk {
+        width: 398px;
+        padding-left: 45px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+.used_blk p {width: 270px;}
+
+.used_blk h3 {
+    width: 270px;
+}
+
+.used_blk span {
+    font-size: 80px;
+    left: -44px;
+}
+.Doctor_cont{
+    margin: 105px 0;
+    text-align: center;
+}
+.Experts_img img {
+    width: 100%;
+    display: none;
+}
+.hero_img img {
+    width: 150px;
+}
+
+img#sticar {
+    width: 100px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.hero_cont h1 {
+    font-size: 30px;
+}
+
+.hero_cont p {
+    line-height: 22px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.service_title span {
+    font-size: 18px;
+}
+
+.svc_blk {
+    flex: 0 0 50%;
+    max-width: 300px;
+    /* margin: auto; */
+    margin-bottom: 50px;
+}
+
+.service_wrp {
+    justify-content: space-evenly;
+}
+
+.woman-cont a {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.mb_100 {
+    margin-bottom: 60px;
+}
+
+.woman-cont ul {
+    max-width: 70%;
+    margin: 30px auto;
+}
+
+.woman-cont ul li p {
+    text-align: left;
+    width: 191px;
+}
+
+.dr_img img {
+    width: 100%;
+}
+
+.Doctor_cont .sec_title {
+    text-align: center;
+}
+
+.Doctor_cont a {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Pimple_blog .row:nth-child(2) .col-lg-3:nth-child(2), .Pimple_blog .row:nth-child(2) .col-lg-3:nth-child(4){
+    margin: 0;
+}
+
+.pml_blog {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.Experts {
+    text-align: center;
+    margin: 80px 0 50px;
+}
+
+.Experts .sec_title {
+    text-align: center;
+}
+
+.Experts a {
+    margin: auto;
+}
+.ept_mbl img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.feedback-area span i {
+    font-size: 18px;
+}
+
+.feedback-area .sec_title span {
+    width: 500px;
+}
+
+.accordion-button {
+    font-size: 16px;
+    padding: 20px 0 20px 40px;
+    text-align: left;
+}
+
+.accordion-body p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 20px;
+}
+
+.faq_acordian {
+    margin-top: 30px;
+    max-width: 730px;
+}
+.fdb_cont p{
+    font-size: 18px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    img#woman_img {
+        display: none;
+        }
+    
+    .woman-cont {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 49px;
+        max-width: 95%;
+    }
+        
+        .used_blk {
+            width: 100%;
+            padding-left: 45px;
+            margin-left: auto;
+            margin-bottom: 25px;
+            max-width: 261px;
+        }
+    
+    .used_blk p {width: 194px;}
+    
+    .used_blk h3 {
+        width: 195px;
+    }
+    
+    .used_blk span {
+        font-size: 80px;
+        left: -44px;
+    }
+    .Doctor_cont{
+        margin: 57px 0;
+        text-align: center;
+    }
+    .Experts_img img {
+        width: 100%;
+        display: none;
+    }
+    .hero_img img {
+        width: 92px;
+    }
+    
+    img#sticar {
+        width: 60px;
+        left: 47px;
+        top: 31px;
+    }
+    
+    h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    
+    .hero_cont h1 {
+        font-size: 26px;
+    }
+    
+    .hero_cont p {
+        line-height: 22px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    .service_title span {
+        font-size: 18px;
+    }
+    
+    .svc_blk {
+        max-width: 254px;
+        margin: auto;
+        margin-bottom: 2px;
+    }
+
+.svc_blk h2 {
+    font-size: 22px;
+}
+
+.svc_blk i img {
+    width: max-content !important;
+}
+    
+    .service_wrp {
+        justify-content: space-evenly;
+        position: relative;
+        max-width: 390px;
+        margin: auto;
+    }
+
+.service_wrp .owl-nav {}
+
+.owl-nav img {
+    width: 12px;
+}
+
+.owl-next {
+    width: max-content;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.Pimple_blog .owl-next {
+    right: -3%;
+}
+
+.owl-prev {
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.Pimple_blog .owl-prev {
+    left: 3%;
+}
+    
+    .woman-cont a {
+        margin: auto;
+        margin-top: 30px;
+        width: 180px;
+    }
+    
+    .mb_100 {
+        margin-bottom: 60px;
+    }
+
+section.Pimple_blog.mb_100 {
+    margin-bottom: 0;
+}
+
+.ept_mbl {
+    display: block;
+}
+
+.ept_mbl {
+    display: block;
+}
+    
+    .woman-cont ul {
+        max-width: 70%;
+        margin: 30px auto;
+    }
+    
+    .woman-cont ul li p {
+        text-align: left;
+        width: 191px;
+    }
+    
+    .dr_img img {
+        width: 100%;
+    }
+    
+    .Doctor_cont .sec_title {
+        text-align: center;
+    }
+    
+    .Doctor_cont a {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .Pimple_blog .row:nth-child(2) .col-lg-3:nth-child(2), .Pimple_blog .row:nth-child(2) .col-lg-3:nth-child(4){
+        margin: 0;
+    }
+    
+    .pml_blog {
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+.pml_blog i img {
+    width: max-content !important;
+}
+
+.pml_blog h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.pml_blog p {
+    line-height: 22px;
+}
+    .Experts {
+        text-align: center;
+        margin: 50px 0 50px;
+    }
+    
+    .Experts .sec_title {
+        text-align: center;
+    }
+    
+    .Experts a {
+        margin: auto;
+    }
+    .ept_mbl img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .feedback-area span i {
+        font-size: 18px;
+    }
+    
+    .feedback-area .sec_title span {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+    .accordion-button {
+        font-size: 16px;
+        padding: 15px 0 15px 28px;
+        text-align: left;
+    }
+    
+    .accordion-body p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .faq_acordian {
+        margin-top: 30px;
+        max-width: 730px;
+    }
+    .fdb_cont p{
+        font-size: 16px;
+    }
+    ul.doneG {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 28px;
+        text-align: left;
+    }
+    
+    .header-text p {
+        font-size: 16px;
+    }
+    
+    .header-area {
+        padding: 15px 0;
+    }
+    
+    .hero-area {height: unset;}
+    
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero_cont i {
+        font-size: 16px;
+    }
+    
+    .hero_cont {
+        text-align: center;
+        margin: 37px 0 30px;
+    }
+    
+    .hero_cont a {
+        margin: 30px auto 0;
+    }
+    
+    ul.doneG li {
+        margin: 0;
+    }
+    
+    .hero_img {
+        margin: auto;
+        margin-top: 120px;
+    }
+    
+    .dr_img {
+        display: none;
+    }
+    
+    .Doctor_cont h4 {
+        font-size: 20px;
+    }
+    
+    .used-area .sec_title {
+        margin-bottom: 30px;
+    }
+    
+    .feedback-area {
+        padding: 40px 0;
+    }
+    
+    .fdb_cont i img {
+        width: 50px !important;
+    }
+    
+    .parson_info h3 {
+        margin-bottom: 10px;
+    }
+    
+    .logo img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+    
+    .master-card ul li {
+        margin-bottom: 10px;
+    }
+    
+    .master-card {
+        margin-top: 20px;
+    }
+    
+    footer.footer-area {
+        padding: 40px 0 20px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.used_blk{
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+ 
+}
